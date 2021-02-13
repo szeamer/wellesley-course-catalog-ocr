@@ -1,0 +1,4 @@
+""" for entry in os.scandir(r"C:\Users\Silvia\Desktop\Data Science\Wellesley_Catalog_Transcription_Project\course_catalog_pdfs"):
+    print(entry.name)
+    async_detect_document("gs://ocr-test-wdc/course_catalog_pdfs/{}".format(entry.name), "gs://ocr-test-wdc/transcript_jsons/{}".format(entry.name))
+    print("done with {}".format(entry.name)) """
